@@ -46,15 +46,41 @@ nav {
   }
   
 .center-google {
+
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 1%;
-    width: 20%;
+    margin-top: 20%;
+    margin-bottom: 3%;
+    width: 22%;
   }
   
 .center {
     margin-top: 1.7rem;
     text-align: center;
   }
+
+  ul {
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 0.3rem 0rem ;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+.right-nav {
+    float: right;
+}
